@@ -24,6 +24,6 @@ def just_render():
 global grid, X, Y, root
 root = Tk()
 X = 100
-Y = 100
+Y = 101
 grid = [[rnd(0, 3) for _ in range(X)] for _ in range(Y)]
 generate(just_render)
